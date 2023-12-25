@@ -8,20 +8,20 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'AstrBot 帮助中心',
-  tagline: 'AstrBot is sooooo cool!',
+  title: 'AstrBot',
+  tagline: 'QQ 和 QQ 频道上的 ChatGPT, Claude, HuggingChat 机器人，支持插件🚀（原 QQChannelChatGPT）',
   favicon: 'https://framerusercontent.com/images/ZOE9fPq18gCB65vtOLdX7r37c.png',
 
   // Set the production url of your site here
-  url: 'https://github.com/',
+  url: 'https://astrbot.soulter.top/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Soulter/AstrBot',
+  baseUrl: '/center/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Soulter', // Usually your GitHub org/user name.
+  projectName: 'AstrBot', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

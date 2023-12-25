@@ -15,10 +15,16 @@
 const sidebars = {
   // But you can create a sidebar manually
   tutorialSidebar: [
+    "开始",
     {
       type: 'category',
       label: '部署',
-      items: ['部署/通过命令行部署', '部署/通过 Docker 部署', '部署/通过 Windows 部署'],
+      items: ['部署/通过命令行部署', '部署/通过Docker部署', '部署/通过Windows部署'],
+    },
+    {
+      type: 'category',
+      label: '使用',
+      items: ['使用/可视化面板', '使用/指令', '使用/大语言模型'],
     },
     {
       type: 'category',
