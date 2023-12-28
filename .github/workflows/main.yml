@@ -25,7 +25,7 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
+          password: ${{ secrets.PASSWORDNEW }}
           source: 'build/*'
           target: '/www/wwwroot/astrbot.soulter.top/'
       - name: script
@@ -33,7 +33,7 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
+          password: ${{ secrets.PASSWORDNEW }}
           script: |
             cd /www/wwwroot/astrbot.soulter.top/
             rm -rf center/*
