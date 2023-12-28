@@ -36,5 +36,5 @@ jobs:
           password: ${{ secrets.PASSWORDNEW }}
           script: |
             cd /www/wwwroot/astrbot.soulter.top/
-            rm -rf center/*
-            mv build/* center/*
+            rm -rf center
+            mv build/ center/
