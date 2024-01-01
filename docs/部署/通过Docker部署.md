@@ -8,7 +8,7 @@ Docker 镜像尚处开发阶段，难免有 bug。在发现 bug 之后，可以�
 只需执行：
 
 ```bash
-docker run -itd -p 6185:6185 soulter/astrbot:v1
+docker run -itd -p 6185:6185 soulter/astrbot:latest
 ```
 
 如果报 docker: command not found 的话，说明你还没有安装 docker，请先安装。
