@@ -50,7 +50,7 @@
 
 这已经启动成功。可以根据提示打开控制台面板。
 
-![image](https://github.com/Soulter/AstrBot-docs/assets/37870767/dcb77b27-3f58-461e-91e0-4a4166f60171
+![image](https://github.com/Soulter/AstrBot-docs/assets/37870767/dcb77b27-3f58-461e-91e0-4a4166f60171)
 
 修改完之后，点击右下角保存即可
 
