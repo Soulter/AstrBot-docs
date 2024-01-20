@@ -28,3 +28,5 @@ docker run -itd -p 6185:6185 soulter/astrbot:latest
 :::
 
 至此，部署完毕。
+
+要在消息平台上使用，请看 [平台配置](/配置/平台配置)
