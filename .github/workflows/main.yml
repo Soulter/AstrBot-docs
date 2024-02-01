@@ -23,17 +23,17 @@ jobs:
       - name: scp
         uses: appleboy/scp-action@master
         with:
-          host: ${{ secrets.HOST }}
+          host: ${{ secrets.HOSTCOLO }}
           username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORDNEW }}
+          password: ${{ secrets.PASSWORDCOLO }}
           source: 'build/*'
           target: '/www/wwwroot/astrbot.soulter.top/'
       - name: script
         uses: appleboy/ssh-action@master
         with:
-          host: ${{ secrets.HOST }}
+          host: ${{ secrets.HOSTCOLO }}
           username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORDNEW }}
+          password: ${{ secrets.PASSWORDCOLO }}
           script: |
             cd /www/wwwroot/astrbot.soulter.top/
             rm -rf center
