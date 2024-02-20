@@ -1,4 +1,5 @@
 ## 下载启动器
+前往 https://github.com/Soulter/AstrBotLauncher/releases 下载启动器，然后按照启动器内容进行相关操作。
 
 下载完压缩包后，解压到任意文件夹
 
