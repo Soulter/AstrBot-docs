@@ -5,11 +5,19 @@ Docker 镜像尚处开发阶段，难免有 bug。在发现 bug 之后，可以�
 
 :::
 
+## Linux 环境
+
 只需执行：
 
 ```bash
-docker run -itd -p 6185:6185 -p 6186:6186 soulter/astrbot:latest
+mkdir -p /home/astrbot/data
+docker run -itd -p 6185:6185 -p 6186:6186 -v /home/astrbot/data:/AstrBot/data soulter/astrbot:latest
 ```
+
+在 `v3.2` 版本之后, 你使用 AstrBot 中产生的数据将存储在 `/home/astrbot/data` 目录下, 包括: 
+1. 插件的配置文件
+2. AstrBot 的配置文件
+3. AstrBot 会话, 统计产生的数据库文件(data.db)
 
 如果报 docker: command not found 的话，说明你还没有安装 docker，请先安装。
 
@@ -21,12 +29,13 @@ docker run -itd -p 6185:6185 -p 6186:6186 soulter/astrbot:latest
 
 ![可视化面板](image.png)
 
-:::caution
-
-**告知老用户**：这是最近新加入的功能，在以后的版本中，AstrBot 将弃用 `configs/config.yaml` 配置文件，会将其中的内容全部转移至 `cmd_config.json` 下，以避免 Git 冲突的发生。
-
-:::
-
 至此，部署完毕。
 
 要在消息平台上使用，请看 [平台配置](/配置/平台配置)
+
+## Windows 环境
+
+如果你还没有安装 Docker, 请先[在这里](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe?utm_source=docker&utm_medium=webreferral&utm_campaign=dd-smartbutton&utm_location=module)安装 Docker. 具体的安装教程可以参考: [这里](https://learn.microsoft.com/zh-cn/virtualization/windowscontainers/quick-start/set-up-environment?tabs=dockerce#windows-10-and-11-1)
+
+// 施工中 //
+
