@@ -34,7 +34,7 @@ const sidebars = {
     {
       type: 'category',
       label: '开发',
-      items: ['开发/插件开发'],
+      items: ['开发/插件开发', '开发/例子：helloworld'],
     },
   ],
 };
