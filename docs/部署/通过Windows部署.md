@@ -6,6 +6,5 @@
 ![image](https://github.com/Soulter/AstrBot-docs/assets/37870767/8dc1faf2-a862-414e-a4b8-6a3b6a791ca6)
 
 ## 启动启动器
-启动 `launcher` 程序即可.
 
-要接入到 QQ/QQ频道，请看 [平台配置](/配置/平台配置)
+启动 `launcher` 程序即可.

@@ -9,8 +9,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'AstrBot',
-  tagline: 'QQ 和 QQ 频道上的 ChatGPT, Claude, HuggingChat 机器人，支持插件🚀（原 QQChannelChatGPT）',
-  favicon: 'https://framerusercontent.com/images/ZOE9fPq18gCB65vtOLdX7r37c.png',
+  tagline: 'OneBot、微信、Telegram、QQ 等多平台兼容的支持 LLM 的聊天机器人平台，支持插件。',
+  // favicon: '',
 
   // Set the production url of your site here
   url: 'https://astrbot.soulter.top/',
@@ -46,13 +46,6 @@ const config = {
           editUrl:
             'https://github.com/Soulter/AstrBot-docs/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -67,10 +60,6 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'AstrBot',
-        logo: {
-          alt: '',
-          src: 'https://framerusercontent.com/images/ZOE9fPq18gCB65vtOLdX7r37c.png',
-        },
         items: [
           {
             type: 'docSidebar',
