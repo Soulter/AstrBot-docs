@@ -29,7 +29,7 @@ const sidebars = {
     {
       type: 'category',
       label: '配置',
-      items: ['配置/平台配置', '配置/语言模型配置', '配置/插件配置', '配置/其他功能配置'],
+      items: ['配置/平台配置', '配置/语言模型配置'],
     },
     {
       type: 'category',
