@@ -1,3 +1,6 @@
+本项目支持 Windows 启动器一件部署。
+
+
 ## 下载启动器
 前往 https://github.com/Soulter/AstrBotLauncher/releases 下载启动器，然后按照启动器内容进行相关操作。
 

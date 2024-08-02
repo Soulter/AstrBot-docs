@@ -19,7 +19,14 @@ const sidebars = {
     {
       type: 'category',
       label: '部署',
-      items: ['部署/通过命令行部署', '部署/通过Docker部署', '部署/通过Windows部署'],
+      items: ['部署/通过Windows部署', '部署/通过Docker部署','部署/通过命令行部署'],
+      link: {
+        type: 'generated-index',
+        title: '部署 AstrBot',
+        description: '多种方式。',
+        slug: '/部署',
+        keywords: ['部署'],
+      },
     },
     {
       type: 'category',

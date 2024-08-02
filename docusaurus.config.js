@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'AstrBot',
+  title: 'AstrBot 🪐',
   tagline: 'OneBot、微信、Telegram、QQ 等多平台兼容的支持 LLM 的聊天机器人平台，支持插件。',
   // favicon: '',
 
