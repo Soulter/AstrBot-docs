@@ -36,4 +36,4 @@ jobs:
           password: ${{ secrets.PASSWORDCOLO }}
           script: |
             cd /www/wwwroot/astrbot.soulter.top/
-            mv build/ .
+            mv build/* .
