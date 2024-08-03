@@ -1,3 +1,9 @@
+---
+slug: /get-started/deploy/docker
+---
+
+
+
 本项目支持 Docker 部署。
 
 ## Linux 环境

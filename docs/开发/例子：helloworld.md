@@ -1,3 +1,7 @@
+---
+slug: /develop/example-helloworld
+---
+
 ```python
 from util.plugin_dev.api.v1.bot import Context, AstrMessageEvent, CommandResult
 from util.plugin_dev.api.v1.config import *

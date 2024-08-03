@@ -1,3 +1,9 @@
+---
+slug: /get-started/deploy/windows
+---
+
+
+
 本项目支持 Windows 启动器一件部署。
 
 

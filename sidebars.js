@@ -18,30 +18,43 @@ const sidebars = {
     "开始",
     {
       type: 'category',
-      label: '部署',
-      items: ['部署/通过Windows部署', '部署/通过Docker部署','部署/通过命令行部署'],
+      label: '开始上手',
+      items: [
+        '开始上手/从零开始',
+        {
+          type: 'category',
+          label: '部署此项目',
+          items: ['开始上手/部署/Windows部署', '开始上手/部署/Docker部署', '开始上手/部署/命令行部署'],
+          link: {
+            type: 'generated-index',
+            title: '部署 AstrBot',
+            description: '多种部署方式。',
+            slug: '/部署',
+            keywords: ['部署'],
+          },
+        },
+        '开始上手/可视化面板',
+        '开始上手/大语言模型',
+        '开始上手/消息平台',
+        '开始上手/插件'
+      ],
       link: {
         type: 'generated-index',
-        title: '部署 AstrBot',
-        description: '多种方式。',
-        slug: '/部署',
-        keywords: ['部署'],
+        title: '开始上手',
+        description: '开始上手',
+        slug: '/get-started',
+        keywords: ['开始上手'],
       },
-    },
-    {
-      type: 'category',
-      label: '使用',
-      items: ['使用/从零开始', '使用/可视化面板', '使用/指令', '使用/大语言模型', '使用/插件'],
-    },
-    {
-      type: 'category',
-      label: '配置',
-      items: ['配置/平台配置'],
     },
     {
       type: 'category',
       label: '开发',
       items: ['开发/插件开发', '开发/例子：helloworld'],
+    },
+    {
+      type: 'category',
+      label: '进阶',
+      items: ['进阶/接入OneAPI'],
     },
   ],
 };
