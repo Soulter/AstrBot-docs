@@ -1,5 +1,5 @@
 ---
-slug: /docs/adavanced/one-api
+slug: /advanced/one-api
 ---
 
 OneAPI 使得我们能通过标准的 OpenAI API 格式访问全球几乎所有厂商的所有大模型，并且做到了开箱即用。

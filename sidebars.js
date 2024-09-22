@@ -55,7 +55,7 @@ const sidebars = {
     {
       type: 'category',
       label: '进阶',
-      items: ['进阶/接入OneAPI'],
+      items: ['进阶/接入OneAPI', '进阶/自部署文转图服务'],
     },
   ],
 };
