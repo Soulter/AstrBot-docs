@@ -35,5 +35,6 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORDNEKO }}
           script: |
-            rm -rf ~/static_site/astrbot_docs
-            mv /tmp/build/* ~/static_site/astrbot_docs
+            rm -rf /root/static_site/astrbot_docs
+            mv /tmp/build/* /root/static_site/astrbot_docs
+            rm -rf /tmp/build/
