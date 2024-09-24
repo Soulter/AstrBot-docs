@@ -27,7 +27,7 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORDNEKO }}
           source: 'build/*'
-          target: '/www/wwwroot/'
+          target: '/tmp/'
       - name: script
         uses: appleboy/ssh-action@master
         with:
@@ -35,6 +35,5 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORDNEKO }}
           script: |
-            rm -rf /www/wwwroot/astrbot.soulter.top/*
-            cd /www/wwwroot/astrbot.soulter.top/
-            mv ../build/* .
+            rm -rf ~/static_site/astrbot_docs
+            mv /tmp/build/* ~/static_site/astrbot_docs
