@@ -12,7 +12,7 @@ slug: /get-started/deploy/docker
 
 ```bash
 mkdir -p /home/astrbot/data
-docker run -itd -p 6185:6185 -p 6186:6186 -v /home/astrbot/data:/AstrBot/data --name astrbot soulter/astrbot:latest
+docker run -itd -p 6185:6185 -v /home/astrbot/data:/AstrBot/data --name astrbot soulter/astrbot:latest
 ```
 
 > 注意：如果您打算使用反向 WebSocket 来连接到诸如 Lagrange、NapCat 等 OneBot 协议实现，您仍需要再暴露对应的端口。比如您打算使用 NapCat 通过 `ws://12.34.56.78:6199/ws` 连接到 AstrBot，那么您需要再暴露 6199 端口。
